@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+catboost_info/
+.build_notebook.py
+private/
+# Include only the two datasets used by the main notebook.
+data/*.csv
+!data/train.csv
+!data/BreedLabels.csv
+results/current/split_ids.csv
+results/current/*_predictions.csv
+notebooks/*_before.ipynb
+notebooks/*_after.ipynb
+
+# Local working materials and generated experiment files
+AGENTS.md
+scripts/
+docs/
+results/
+data/README.md
